@@ -10,5 +10,5 @@ CREATE (n{name:'cypher'})-[r:LIKES]->({name:'icecream'}) return n.name, r
 
 //graph
 
-
+//hide
 //table
