@@ -5,7 +5,7 @@
 //hide
 [source,cypher]
 ----
-CREATE (n{name:'cypher'})-[r:LIKES]->({name:'icecream'}) return n.name, r
+CREATE (n{name:'Place', uri:'http://www.freebase.com/location/citytown'})-[r:name]->(t{name:'Pune'}) return n.name, r
 ----
 
 //graph
